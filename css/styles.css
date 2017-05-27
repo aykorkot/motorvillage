@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------- FONT FAMILY ---------*/
+@font-face {
+	font-family: 'Hind', sans-serif;
+	
+	src: url('https://fonts.googleapis.com/css?family=Hind:400,500,600,700');
+}
+	.header .nav .nav-item ul li a, .header .bar-item .items .list-items li a {
+	  font-family: "Hind", serif;
+	}
+	.header .section-middle .section-middle-title h2,
+	.header .section-middle .section-middle-price .title-price p,
+	.header .nav .nav-item ul li a,
+	.header .bar-item .items .list-items li a,
+	.header .section-middle .section-middle-price .price h4,
+	.header .section-middle .section-middle-price .price p,
+	.container .container-fluid .plateforme h1, 
+	.container .container-fluid .plateforme p,
+	.container .container-fluid .form .well fieldset legend,
+	.container .container-fluid .form .well .form-group .input-group label,
+	.container .container-fluid .form .well .form-group .select-group select,
+	.container .container-fluid .form .well .form-group .select-group select option,
+	.container .container-fluid .plateforme .btn-inscription button,
+	.container .container-fluid .section-actualites,
+	.container .container-fluid .list-services
+
+
+
+
+	{
+		font-family: "Hind", serif;
+	}
+	
+
+
+
+/*END OF FONTS*/
