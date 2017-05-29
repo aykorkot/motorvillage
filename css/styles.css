@@ -1,52 +1,67 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------- FONT FAMILY ---------*/
-@font-face {
-	font-family: 'Hind', sans-serif;
-	
-	src: url('https://fonts.googleapis.com/css?family=Hind:400,500,600,700');
+.container .title img{
+    float: left;
+    width: 7%;
 }
-	.header .nav .nav-item ul li a, .header .bar-item .items .list-items li a {
-	  font-family: "Hind", serif;
-	}
-	.header .section-middle .section-middle-title h2,
-	.header .section-middle .section-middle-price .title-price p,
-	.header .nav .nav-item ul li a,
-	.header .bar-item .items .list-items li a,
-	.header .section-middle .section-middle-price .price h4,
-	.header .section-middle .section-middle-price .price p,
-	.container .container-fluid .plateforme h1, 
-	.container .container-fluid .plateforme p,
-	.container .container-fluid .form .well fieldset legend,
-	.container .container-fluid .form .well .form-group .input-group label,
-	.container .container-fluid .form .well .form-group .select-group select,
-	.container .container-fluid .form .well .form-group .select-group select option,
-	.container .container-fluid .plateforme .btn-inscription button,
-	.container .container-fluid .section-actualites,
-	.container .container-fluid .list-services
+.container .title h1{
+    margin: 0 0 0 36px;
+    font-size: 20px;
+    padding: 10.5px;
+    text-align: center;
+    background: #1c4a71;
+    color: #fff;
+    width: 399px;
+    display: inline-block;
+}
+.container .title hr{
+	border: 1px solid #1c4a71;
+    width: 5%;
+    position: absolute;
+    left: 70px;
+    top: 12px;
+}
+
+.container .gamme{
+	margin: 0 auto;
+    width: 850px;
+}
+    
+.container .gamme .notre-gamme select, 
+.container .gamme .nos-offres input{
+    border-radius: 25px;
+    height: 45px;
+} 
+.container .gamme .nos-offres input{
+	background: #c6a78b;
+	border: #c6a78b;
+    color: #fff;
+}
+.container .hr .img-fiat{
+   text-align: center;
+}
+ 
+.container .hr .img-fiat img{
+    position: relative;
+    background: #fff;
+    bottom: 75px;
+    padding: 0 40px;
+}
+.container .serie-cars{
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 47px 0 0 0;
+}
+.container .serie-cars h1{
+    color: rgba(187, 142, 102, 0.88);
+    font-size: 25px;
+}
+.container .cars a{
+    background: #c6a78b;
+    border: #c6a78b;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 20px;
+}
 
 
 
-
-	{
-		font-family: "Hind", serif;
-	}
-	
-
-
-
-/*END OF FONTS*/
